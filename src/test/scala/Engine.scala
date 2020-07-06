@@ -1,6 +1,7 @@
 import io.gatling.app.Gatling
 import io.gatling.core.config.GatlingPropertiesBuilder
-import simulations._
+
+
 
 object Engine extends App {
 
@@ -11,3 +12,5 @@ object Engine extends App {
 
 	Gatling.fromMap(props.build)
 }
+
+
